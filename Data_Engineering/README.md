@@ -1,6 +1,6 @@
 
 
-# Clean & Transform Client Transactions
+# 1 Clean & Transform Client Transactions
 
 
 ## Objective
@@ -49,7 +49,13 @@ Prepare messy client transaction data for reliable financial analysis.
 - Delivered clean, structured output ready for downstream reporting
 
 
-## PySpark Basics — Local DataFrame & Transformations
+
+
+
+
+
+
+## 2. PySpark Basics — Local DataFrame & Transformations
 
 - Objective: Demonstrate PySpark initialization, DataFrame creation, and basic transformations for data engineering.
 - Tools Used: Python, PySpark
