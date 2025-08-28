@@ -61,7 +61,6 @@ Skills Demonstrated: SparkSession setup, DataFrame creation from local data, fil
 ## Process Steps & Logic
 
 ## 1. Initialize SparkSession
-
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder \
@@ -82,39 +81,29 @@ df.show()
 ## 3. Basic Transformations
 
 ## Filter rows:
-
 df.filter(df.age > 30).show()
 
-
 ## Add a column:
-
 df.select(df.name, (df.age+1).alias("age_plus_one")).show()
 
-
 ## Drop duplicates:
-
 df.dropDuplicates(["name"]).show()
 
 
 ## 4. String and Conditional Operations
-
 .startswith(), .endswith(), .substr() on columns
 
 ## Conditional column creation:
-
 from pyspark.sql import functions as F
 df.select(df.name, F.when(df.age > 30, 1).otherwise(0).alias("over_30")).show()
 
 
 ## 5. Read / Write Files
 
-## CSV:
-
+### CSV:
 df.write.csv("output_folder", header=True)
 
-
-## JSON / Parquet:
-
+### JSON / Parquet:
 df.write.parquet("output.parquet")
 
 
@@ -129,13 +118,13 @@ df.filter(df.name.isin("Alice","Bob")).show()
 df.filter(df.age.between(22,24)).show()
 
 ## Sample Output
-+---+-------+---+
-| id|   name|age|
-+---+-------+---+
-|  1|  Alice| 28|
-|  2|    Bob| 35|
-|  3|Charlie| 25|
-+---+-------+---+
+### +---+-------+---+
+### | id|   name|age|
+### +---+-------+---+
+### |  1|  Alice| 28|
+### |  2|    Bob| 35|
+### |  3|Charlie| 25|
+### +---+-------+---+
 
 ## Key Takeaways
 
