@@ -1,52 +1,67 @@
                               ** ![Radovan Tirol – Python | SQL | Power BI | Data Engineering](banner.png)**
 
-# Python Mini Projects Portfolio
+Python & SQL Mini Projects Portfolio
 
-This repository contains a collection of Python mini projects developed as part of my continuous professional development toward a Data Analyst / Business Analyst / Junior Data Engineer role.  
-These projects showcase skills in Python programming, data manipulation, and the foundations of ETL workflows.
+This repository contains a collection of Python and SQL mini projects developed as part of my continuous professional development toward a Data Analyst / Business Analyst / Junior Data Engineer role.
+These projects demonstrate Python programming, SQL querying, data manipulation, ETL concepts, and reporting automation.
 
----
+About Me
 
-# About Me
-I am Ing. Radovan Tirol, an SLA Operations Analyst / Engineer with over 8 years of experience in business analysis, SLA governance, and operational reporting.  
-Proficient in SQL/MySQL, Power BI, Python, and MS Excel, I am now focusing on expanding my coding and data engineering capabilities.
+I am Ing. Radovan Tirol, an SLA Operations Analyst / Engineer with over 8 years of experience in business analysis, SLA governance, and operational reporting.
+Proficient in Python, SQL/MySQL, Power BI, and Excel, I am focusing on expanding my coding and data engineering capabilities.
 
-LinkedIn: [linkedin.com/in/radovantirol](https://www.linkedin.com/in/radovantirol/)  
-Email: radovan.tirol@gmail.com  
+LinkedIn: linkedin.com/in/radovantirol
 
----
+Email: radovan.tirol@gmail.com
 
-## Repository Contents
+Projects
+Python Projects
 
-- **loops_examples.py** – Demonstrates Python loop structures and control flow  
-- **functions_examples.py** – Shows function definitions, parameters, and return values  
-- **numpy_pandas_examples.py** – Data manipulation using NumPy and pandas  
-- **sales_report.py** – A simple reporting script demonstrating data formatting and calculations  
+Sales Report Automation – Generates sales reports from raw CSV data using Python and Pandas. View project →
 
----
+NumPy & Pandas Examples – Demonstrates data manipulation and analysis techniques. View project →
 
-## Skills Demonstrated
-- Python fundamentals: loops, functions, exception handling  
-- Data manipulation using pandas and NumPy  
-- Basic ETL workflow concepts  
-- Clean, readable, and maintainable code practices  
-- Git & GitHub version control basics  
+Loops Examples – Basic Python loops and control flow for beginners. View project →
 
----
+SQL Projects
 
-## How to Run the Code
-1. Install [Python 3.13+](https://www.python.org/downloads/)  
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/Radovan793/Python-Mini-Projects.git
-Navigate into the folder and run any script:
+Query Examples – Sample SQL queries demonstrating joins, aggregations, and filtering. View project →
+
+Reporting KPIs – SQL scripts generating KPI metrics for mock business data. View project →
+
+Skills Demonstrated
+
+Python: loops, functions, exception handling, data manipulation with Pandas & NumPy
+
+SQL: joins, aggregations, filtering, basic reporting automation
+
+ETL Concepts: reading, transforming, and exporting data
+
+Clean, readable, and maintainable code practices
+
+Git & GitHub version control
+
+How to Run
+
+Install Python 3.13+
+
+Clone this repository:
+
+git clone https://github.com/Radovan793/Python-SQL-Mini-Projects.git
+
+
+Navigate into a project folder and run the script:
+
 python filename.py
 
+Roadmap
 
-**Roadmap**
-I will be adding more complex projects over time, including:
+Future projects planned:
 
-Full ETL pipeline examples (CSV/JSON to SQL)
+Full ETL pipeline examples (CSV/JSON → SQL)
+
 Data cleaning and transformation workflows
-Power BI data source integration with Python
+
+Power BI + Python integration examples
+
 SQL query automation scripts
