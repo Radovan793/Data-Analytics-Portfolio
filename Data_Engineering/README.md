@@ -68,13 +68,13 @@ Prepare messy client transaction data for reliable financial analysis.
 ## Sample Output:
 
 
-## +---+-------+---+
-## | id|   name|age|
-## +---+-------+---+
-## |  1|  Alice| 28|
-## |  2|    Bob| 35|
-## |  3|Charlie| 25|
-## +---+-------+---+
+#### +---+-------+---+
+#### | id|   name|age|
+#### +---+-------+---+
+#### |  1|  Alice| 28|
+#### |  2|    Bob| 35|
+#### |  3|Charlie| 25|
+#### +---+-------+---+
 
 
 ## Key Takeaways:
