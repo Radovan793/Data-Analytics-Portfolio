@@ -55,39 +55,72 @@ Prepare messy client transaction data for reliable financial analysis.
 
 
 
-## 2. PySpark Basics — Local DataFrame & Transformations
+# 2. PySpark Basics — Local DataFrame & Transformations
 
-- Objective: Demonstrate PySpark initialization, DataFrame creation, and basic transformations for data engineering.
-- Tools Used: Python, PySpark
-- Skills Demonstrated: SparkSession setup, DataFrame creation, filtering, column transformations, handling duplicates, -- basic string operations, conditional logic, and reading/writing files.
+- Objective: Demonstrate PySpark initialization, DataFrame creation, basic transformations, and queries for distributed data processing.
+- Tools: Python, PySpark
+- Skills Demonstrated: SparkSession setup, DataFrame creation from local data, filtering, column transformations, handling duplicates, basic string functions, and conditional logic.
 
 ## Process Steps & Logic:
 
-- Initialize SparkSession
-- Create a DataFrame from in-memory data
-- Basic transformations: filter rows, add columns, drop duplicates
-- String and conditional operations: .startswith(), .endswith(), .substr(), F.when(...).otherwise(...)
-- Read/Write files: CSV, JSON, Parquet
-- Explode nested arrays
-- Filter with .isin() and .between()
+## Initialize SparkSession
+
+- from pyspark.sql import SparkSession
+- spark = SparkSession.builder \
+-   .appName("PySparkPractice") \
+-   .master("local[*]") \
+-   .getOrCreate()
+
+
+## Create a DataFrame from in-memory data
+
+- data = [(1,"Alice",28),(2,"Bob",35),(3,"Charlie",25)]
+- columns = ["id","name","age"]
+- df = spark.createDataFrame(data, columns)
+- df.show()
+
+
+## Basic transformations
+
+- Filter rows: df.filter(df.age > 30).show()
+- Add a column: df.select(df.name, (df.age+1).alias("age_plus_one")).show()
+- Drop duplicates: df.dropDuplicates(["name"]).show()
+- String and conditional operations
+- .startswith(), .endswith(), .substr() on columns
+- Conditional column creation: F.when(df.age>30,1).otherwise(0)
+
+## Read/Write files
+- CSV: df.write.csv("output_folder", header=True)
+- JSON/Parquet: df.write.parquet("output.parquet")
+
+## Explode nested arrays
+
+- df.select("name", F.explode(F.col("phoneNumber")).alias("contact")).show()
+
+
+## Filter with isin() and between()
+
+- df.filter(df.name.isin("Alice","Bob")).show()
+- df.filter(df.age.between(22,24)).show()
+
 
 ## Sample Output:
 
-
-#### +---+-------+---+
-#### | id|   name|age|
-#### +---+-------+---+
-#### |  1|  Alice| 28|
-#### |  2|    Bob| 35|
-#### |  3|Charlie| 25|
-#### +---+-------+---+
+- +---+-------+---+
+- | id|   name|age|
+- +---+-------+---+
+- |  1|  Alice| 28|
+- |  2|    Bob| 35|
+- |  3|Charlie| 25|
+- +---+-------+---+
 
 
 ## Key Takeaways:
 
-- Able to set up PySpark locally and work with DataFrames
-- Applied transformations, filters, and column operations efficiently
-- Prepared for scalable ETL and data engineering workflows
+- Demonstrated ability to set up PySpark locally and work with DataFrames.
+- Applied transformations, filters, and column operations efficiently.
+- Showed understanding of distributed data handling and file formats (CSV, JSON, Parquet).
+- Prepared for scalable ETL and data engineering workflows.
 
 
 
