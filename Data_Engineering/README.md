@@ -44,3 +44,40 @@ Prepare messy client transaction data for reliable financial analysis.
 - Standardized currencies and dates using `.apply()` and dictionaries
 - Filtered and transformed data for valid financial records
 - Delivered clean, structured output ready for downstream reporting
+
+
+## PySpark Basics — Local DataFrame & Transformations
+
+- Objective: Demonstrate PySpark initialization, DataFrame creation, and basic transformations for data engineering.
+- Tools Used: Python, PySpark
+- Skills Demonstrated: SparkSession setup, DataFrame creation, filtering, column transformations, handling duplicates, -- basic string operations, conditional logic, and reading/writing files.
+
+## Process Steps & Logic:
+
+- Initialize SparkSession
+- Create a DataFrame from in-memory data
+- Basic transformations: filter rows, add columns, drop duplicates
+- String and conditional operations: .startswith(), .endswith(), .substr(), F.when(...).otherwise(...)
+- Read/Write files: CSV, JSON, Parquet
+- Explode nested arrays
+- Filter with .isin() and .between()
+
+Sample Output:
+
++---+-------+---+
+| id|   name|age|
++---+-------+---+
+|  1|  Alice| 28|
+|  2|    Bob| 35|
+|  3|Charlie| 25|
++---+-------+---+
+
+
+## Key Takeaways:
+
+- Able to set up PySpark locally and work with DataFrames
+- Applied transformations, filters, and column operations efficiently
+- Prepared for scalable ETL and data engineering workflows
+
+
+
