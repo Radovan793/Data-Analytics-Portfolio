@@ -29,6 +29,9 @@ Each query is focused on solving a specific real-world problem using window func
 1. Load the sample tables (`users`, `employee`, `Departments`, `weather`) in your SQL database.  
 2. Copy queries from `advanced_queries.sql` and execute them in your SQL editor.
 
+### Sample Data
+A sample dataset is included in [sample_data.sql](sample_data.sql).  
+Load it into your SQL environment before running the queries.
 ---
 
 ## Skills Demonstrated
