@@ -23,6 +23,10 @@ Each query is focused on solving a specific real-world problem using window func
    - Finds the second highest salary per department using `DENSE_RANK()` and CTEs.  
    - Example for ranking and departmental salary analysis.
 
+5. **Consecutive cold weather streaks**  
+   - Find cities with 3 or more + consequitive days of cold weather temperature below 0 Degress C.
+   - Demonstrates use of CASE WHEN THEN with window functions `LEAD() and LAG()`and CTEs.  
+
 ---
 
 ## How to Run
