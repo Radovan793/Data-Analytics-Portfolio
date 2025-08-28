@@ -202,7 +202,7 @@ def guess_number():
         try:
             input_number = int(input("Please guess the number between 0-30 that is the number "))
             if input_number == 7:
-                print("🎉 That is the correct number!")
+                print("That is the correct number!")
                 break
             elif input_number < 7:
                 print("Too low! Try a higher number.")
@@ -220,12 +220,12 @@ def guess_number():
         try:
             guess = int(input("Guess the number between 0 and 30: "))
             if guess == 7:
-                print("🎉 That is the correct number!")
+                print("That is the correct number!")
                 break
             elif guess < 7: 
-                print("Too low! Try a higher number.") #1️⃣ 
+                print("Too low! Try a higher number.") 
             else:
-                print("Too high! Try a lower number.")  # 2️⃣ 
+                print("Too high! Try a lower number.")  
         except ValueError:
             print("Please enter a valid number.")
 guess_number()
@@ -235,12 +235,12 @@ import random
 
 def guess_number():
     """Option 3 a game of guessing the right number"""    
-    secret_number = random.randint(0, 30)  #1️⃣ random
+    secret_number = random.randint(0, 30)  #1 random
     while True:
         try:
             guess = int(input("Guess the number between 0 and 30: "))
             if guess == secret_number:
-                print("🎉 That is the correct number!")
+                print("That is the correct number!")
                 break
             elif guess < secret_number:
                 print("Too low! Try a higher number.")
@@ -256,15 +256,15 @@ guess_number()
 def guess_number():
     """Option 4 a game of guessing the right number with Randomly generated number to guess each time"""
     secret_number = random.randint(0, 30)
-    attempts = 0  #1️⃣ add counter
+    attempts = 0  #add counter
     
     while True:
         try:
             guess = int(input("Guess the number between 0 and 30: "))
-            attempts += 1  # 2️⃣ increase guess count
+            attempts += 1  # increase guess count
             
             if guess == secret_number:
-                print(f"🎉 Correct! You guessed it in {attempts} tries.")  # 3️⃣ show at the end
+                print(f" Correct! You guessed it in {attempts} tries.")  # show at the end
                 break
             elif guess < secret_number:
                 print("Too low! Try a higher number.")
