@@ -47,3 +47,30 @@ WITH second_highest_salary AS (
 SELECT department_id, department_name, salary
 FROM second_highest_salary
 WHERE highest_salary = 2;
+
+
+
+--5. Find cities with 3+ consecutive days of cold weather (<0°C) for London
+
+SELECT DISTINCT city, day, temperature
+FROM (
+    SELECT city, day, temperature,
+           CASE 
+               WHEN temperature < 0
+                    AND (LAG(temperature, 1) OVER (PARTITION BY city ORDER BY day) < 0 OR LAG(temperature, 1) OVER (PARTITION BY city ORDER BY day) IS NULL)
+                    AND (LAG(temperature, 2) OVER (PARTITION BY city ORDER BY day) < 0 OR LAG(temperature, 2) OVER (PARTITION BY city ORDER BY day) IS NULL)
+               THEN 1
+               WHEN temperature < 0
+                    AND (LAG(temperature, 1) OVER (PARTITION BY city ORDER BY day) < 0 OR LAG(temperature, 1) OVER (PARTITION BY city ORDER BY day) IS NULL)
+                    AND (LEAD(temperature, 1) OVER (PARTITION BY city ORDER BY day) < 0 OR LEAD(temperature, 1) OVER (PARTITION BY city ORDER BY day) IS NULL)
+               THEN 1
+               WHEN temperature < 0
+                    AND (LEAD(temperature, 1) OVER (PARTITION BY city ORDER BY day) < 0 OR LEAD(temperature, 1) OVER (PARTITION BY city ORDER BY day) IS NULL)
+                    AND (LEAD(temperature, 2) OVER (PARTITION BY city ORDER BY day) < 0 OR LEAD(temperature, 2) OVER (PARTITION BY city ORDER BY day) IS NULL)
+               THEN 1
+               ELSE 0
+           END AS cold_temperature
+    FROM weather
+) x
+WHERE cold_temperature = 1 AND city = 'London'
+ORDER BY city, day;
