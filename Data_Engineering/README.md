@@ -65,8 +65,9 @@ Prepare messy client transaction data for reliable financial analysis.
 - Explode nested arrays
 - Filter with .isin() and .between()
 
-Sample Output:
+##Sample Output:
 
+##
 +---+-------+---+
 | id|   name|age|
 +---+-------+---+
