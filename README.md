@@ -1,80 +1,63 @@
-                              ** ![Radovan Tirol – Python | SQL | Power BI | Data Engineering](banner.png)**
+![Radovan Tirol – Python | SQL | Power BI | Data Engineering](banner.png)
+
+# Python / SQL Mini Projects Portfolio
+
+This repository contains a collection of mini projects developed as part of my continuous professional development toward Data Analyst, Business Analyst, and Junior Data Engineer roles.  
+The projects showcase skills in **Python programming, SQL, data manipulation, ETL workflows**, and reporting automation.
+
+---
+
+## About Me
+I am **Ing. Radovan Tirol**, an SLA Operations Analyst / Engineer with 8+ years of experience in business analysis, SLA governance, and operational reporting.  
+Proficient in **SQL/MySQL, Power BI, Python, and Excel**, I am expanding my skills into **data engineering and ETL workflows**.
+
+- **LinkedIn:** [linkedin.com/in/radovantirol](https://www.linkedin.com/in/radovantirol/)  
+- **Email:** radovan.tirol@gmail.com  
+
+---
+
+## Repository Contents
+
+- **loops_examples/** – Demonstrates Python loop structures and control flow  
+- **functions_examples/** – Shows Python function definitions, parameters, and return values  
+- **numpy_pandas_examples/** – Data manipulation using **NumPy** and **pandas**  
+- **sales_report/** – A reporting script demonstrating Python-based CSV/Excel reporting and basic ETL concepts  
+
+---
+
+## Skills Demonstrated
+
+- Python fundamentals: loops, functions, exception handling  
+- Data manipulation using **pandas** & **NumPy**  
+- Basic ETL workflow concepts  
+- SQL query creation and basic automation  
+- Reporting automation with Python  
+- Git & GitHub version control best practices  
+- Clean, readable, maintainable code
+
+---
+
+## How to Run the Code
+
+1. Install [Python 3.13+](https://www.python.org/downloads/)  
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/Radovan793/Python-Mini-Projects.git
 
 
-Python & SQL Mini Projects Portfolio 
+   Navigate into a project folder:
 
-This repository contains a collection of Python and SQL mini projects developed as part of my continuous professional development toward a Data Analyst / Business Analyst / Junior Data Engineer role. 
- These projects demonstrate Python programming, SQL querying, data manipulation, ETL concepts, and reporting automation. 
+cd sales_report
 
- 
 
-About Me 
+Run the script:
+python sales_report.py
+Roadmap
 
-I am Ing. Radovan Tirol, an SLA Operations Analyst / Engineer with over 8 years of experience in business analysis, SLA governance, and operational reporting. 
- Proficient in Python, SQL/MySQL, Power BI, and Excel, I am focusing on expanding my coding and data engineering capabilities. 
+Future projects will include:
 
-LinkedIn: linkedin.com/in/radovantirol 
-
-Email: radovan.tirol@gmail.com 
-
- 
-
-Projects 
-
-Python Projects 
-
-Sales Report Automation – Generates sales reports from raw CSV data using Python and Pandas. View project → 
-
-NumPy & Pandas Examples – Demonstrates data manipulation and analysis techniques. View project → 
-
-Loops Examples – Basic Python loops and control flow for beginners. View project → 
-
-SQL Projects 
-
-Query Examples – Sample SQL queries demonstrating joins, aggregations, and filtering. View project → 
-
-Reporting KPIs – SQL scripts generating KPI metrics for mock business data. View project → 
-
- 
-
-Skills Demonstrated 
-
-Python: loops, functions, exception handling, data manipulation with Pandas & NumPy 
-
-SQL: joins, aggregations, filtering, basic reporting automation 
-
-ETL Concepts: reading, transforming, and exporting data 
-
-Clean, readable, and maintainable code practices 
-
-Git & GitHub version control 
-
- 
-
-How to Run 
-
-Install Python 3.13+ 
-
-Clone this repository: 
-
-git clone https://github.com/Radovan793/Python-SQL-Mini-Projects.git 
- 
-
-Navigate into a project folder and run the script: 
-
-python filename.py 
- 
-
- 
-
-Roadmap 
-
-Future projects planned: 
-
-Full ETL pipeline examples (CSV/JSON → SQL) 
-
-Data cleaning and transformation workflows 
-
-Power BI + Python integration examples 
-
-SQL query automation scripts 
+Full ETL pipelines (CSV/JSON → SQL)
+Data cleaning & transformation workflows
+SQL query automation scripts
+Power BI integration with Python for automated reporting
+PySpark / Big Data mini projects
