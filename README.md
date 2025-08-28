@@ -45,19 +45,18 @@ Proficient in **SQL/MySQL, Power BI, Python, and Excel**, I am expanding my skil
    git clone https://github.com/Radovan793/Python-Mini-Projects.git
 
 
-   Navigate into a project folder:
-
-cd sales_report
-
+Navigate into a project folder:
+   cd sales_report
 
 Run the script:
-python sales_report.py
-Roadmap
+   python sales_report.py
+   
 
+## Road Map
 Future projects will include:
 
-Full ETL pipelines (CSV/JSON → SQL)
-Data cleaning & transformation workflows
-SQL query automation scripts
-Power BI integration with Python for automated reporting
-PySpark / Big Data mini projects
+- Full ETL pipelines (CSV/JSON → SQL)
+- Data cleaning & transformation workflows
+- SQL query automation scripts
+- Power BI integration with Python for automated reporting
+- PySpark / Big Data mini projects
