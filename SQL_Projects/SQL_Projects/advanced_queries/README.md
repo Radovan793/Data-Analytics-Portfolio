@@ -1,1 +1,35 @@
-SQL_Projects/advanced_queries/README.md
+Advanced SQL Queries
+This folder contains a collection of advanced SQL queries demonstrating analytical and data processing skills.
+Each query is focused on solving a specific real-world problem using window functions, CTEs, and ranking techniques.
+
+Queries Included
+Find Duplicate Records
+
+Detects duplicate entries in a table based on a unique key.
+Demonstrates use of ROW_NUMBER() window function.
+Top 3 Employees by Salary per Department
+
+Fetches top earners in each department using RANK().
+Useful for HR analytics and performance reporting.
+Cities with 3+ Consecutive Cold Days
+
+Identifies cities where temperatures remained below 0°C for three or more consecutive days.
+Demonstrates use of LAG() and conditional logic.
+Second Highest Salary in Each Department
+
+Finds the second highest salary per department using DENSE_RANK() and CTEs.
+Example for ranking and departmental salary analysis.
+How to Run
+Load the sample tables (users, employee, Departments, weather) in your SQL database.
+Copy queries from advanced_queries.sql and execute them in your SQL editor.
+Skills Demonstrated
+Window Functions: ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD
+Common Table Expressions (CTEs)
+Conditional Aggregation
+Data Cleaning & Analysis
+Next Steps
+More queries will be added, including:
+
+Complex joins and aggregations
+Advanced date/time analytics
+Performance optimization examples
