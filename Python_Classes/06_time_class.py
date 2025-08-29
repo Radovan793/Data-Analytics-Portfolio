@@ -10,5 +10,6 @@ class TimeClass:
 
 
 # Example usage
-t1 = TimeClass(5, 10)
-print(t1.get_time())  # 5:10
+if __name__ == "__main__":
+    t1 = TimeClass(5, 10)
+    print(t1.get_time())  # 5:10
