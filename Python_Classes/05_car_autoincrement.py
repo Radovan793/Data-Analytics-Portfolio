@@ -33,6 +33,7 @@ car1.start()
 car1.speedup_by(20)
 car2.speeddown_by(10)
 
-print(car1.get_info())
-print(car2.get_info())
-print(car3.get_info())
+if __name__ == "__main__":
+    print(car1.get_info())
+    print(car2.get_info())
+    print(car3.get_info())
