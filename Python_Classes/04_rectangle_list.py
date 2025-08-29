@@ -19,5 +19,6 @@ rectangles = [
 ]
 
 # Print areas
-for i, rect in enumerate(rectangles, 1):
-    print(f"Rectangle {i}: Area = {rect.get_area()}")
+if __name__ == "__main__":
+    for i, rect in enumerate(rectangles, 1):
+        print(f"Rectangle {i}: Area = {rect.get_area()}")
