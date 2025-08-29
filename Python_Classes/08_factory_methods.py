@@ -14,8 +14,9 @@ class Car:
 
 
 # Example usage
-car1 = Car.makeBMW()
-car2 = Car.makeAudi()
+if __name__ == "__main__": 
+    car1 = Car.makeBMW()
+    car2 = Car.makeAudi()
 
-print(car1.manufacturer)
-print(car2.manufacturer)
+    print(car1.manufacturer)
+    print(car2.manufacturer)
