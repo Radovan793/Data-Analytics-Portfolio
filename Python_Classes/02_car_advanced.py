@@ -32,8 +32,9 @@ class Car:
 
 
 # Example usage
-big_car = Car("Toyota")
-big_car.start()
-big_car.speed_up_by(5)
-big_car.speed_down_by(10)
-big_car.get_info()
+if __name__ == "__main__":
+    big_car = Car("Toyota")
+    big_car.start()
+    big_car.speed_up_by(5)
+    big_car.speed_down_by(10)
+    big_car.get_info()
