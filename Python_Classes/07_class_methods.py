@@ -8,5 +8,6 @@ class MyClass:
 
 
 # Example usage
-obj = MyClass()
-obj.instance_method()
+if __name__ == "__main__":
+    obj = MyClass()
+    obj.instance_method()
