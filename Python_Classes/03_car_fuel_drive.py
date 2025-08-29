@@ -34,10 +34,11 @@ class Car:
 
 
 # Example usage
-my_car = Car("Toyota", speed=50)
-my_car.display_info()
-my_car.accelerate(30)
-my_car.brake(60)
-my_car.refuel(20)
-my_car.drive(100)
-my_car.display_info()
+if __name__ == "__main__":
+    my_car = Car("Toyota", speed=50)
+    my_car.display_info()
+    my_car.accelerate(30)
+    my_car.brake(60)
+    my_car.refuel(20)
+    my_car.drive(100)
+    my_car.display_info()
