@@ -11,5 +11,6 @@ class Car:
 
 
 # Example usage
-my_car = Car("Toyota", 180)
-my_car.display_info()
+if __name__ == "__main__":
+    my_car = Car("Toyota", 180)
+    my_car.display_info()
