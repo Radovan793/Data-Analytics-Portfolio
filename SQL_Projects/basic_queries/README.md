@@ -41,3 +41,49 @@ This folder contains a collection of SQL queries demonstrating analytical and da
 
 ## Sample Data
 - Sample tables for Employees, Departments, Orders, Purchases, Sales, Visits, and Categories are provided in `sample_data.sql`.
+
+
+# Basic SQL Queries – Part 2
+
+This file contains additional **basic SQL queries**, extending the examples from `basic_queries.sql`.  
+Focus is on analytical tasks, subqueries, and simple aggregations using real-world scenarios.
+
+---
+
+## Queries Included
+
+### Clients with at Least One Invoice
+- Finds clients that have at least one invoice using `IN` and `DISTINCT`.
+- Table: `clients`, `invoices`
+
+### Clients with Invoices Using EXISTS
+- Retrieves clients with invoices using `EXISTS` operator.
+- Table: `clients`, `invoices`
+
+### Invoices Above Client Average
+- Selects invoices that exceed the client-specific average invoice total.
+- Demonstrates correlated subqueries.
+- Table: `invoices`
+
+### Clients with Invoices Over a Certain Amount
+- Returns clients if there exists an invoice over a threshold (e.g., 1000).
+- Uses `EXISTS` for conditional checks.
+- Table: `clients`, `invoices`
+
+### Products Never Ordered
+- Finds products with no orders using `NOT IN` and `NOT EXISTS`.
+- Demonstrates safe handling of NULLs in subqueries.
+- Tables: `products`, `order_items`
+
+### Subqueries in SELECT Clause
+- Calculates invoice averages and differences within the `SELECT` statement.
+- Demonstrates scalar subqueries.
+- Table: `invoices`
+
+### Total Sales per Client vs Overall Average
+- Computes total sales per client, overall average, and difference.
+- Shows a cleaner approach using CTEs.
+- Tables: `clients`, `invoices`
+
+---
+
