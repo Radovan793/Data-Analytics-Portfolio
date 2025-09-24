@@ -4,8 +4,8 @@ This is a small ETL project that **extracts, transforms, and loads COVID data**.
 
 ---
 
-## Project Structure
--
+Project Structure
+
 covid_etl_project/
 │
 ├── etl.py # Main ETL code (functions + classes)
