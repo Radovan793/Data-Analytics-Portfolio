@@ -1,0 +1,3 @@
+pandas==2.1.0 → for data manipulation in your ETL
+requests==2.32.0 → for any API calls or data downloads
+pytest==8.4.2 → for running your tests
