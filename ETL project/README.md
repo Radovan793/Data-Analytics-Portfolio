@@ -4,7 +4,9 @@ This is a small ETL project that **extracts, transforms, and loads COVID data**.
 
 ---
 
-Project Structure
+## Project Structure
+
+---
 
 covid_etl_project/
 │
@@ -57,7 +59,5 @@ Tests are also automatically run on GitHub Actions for every push or pull reques
 The workflow .github/workflows/python-ci.yml:
 
 Sets up Python 3.11
-
 Installs dependencies
-
 Runs tests automatically on push and pull requests to main
