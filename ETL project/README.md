@@ -1,4 +1,4 @@
-# ETL Project
+## ETL Project – COVID Data
 
 This is a small ETL project that **extracts, transforms, and loads COVID data**. It includes unit tests and a GitHub Actions CI workflow to automatically test changes.
 
@@ -10,12 +10,12 @@ This is a small ETL project that **extracts, transforms, and loads COVID data**.
 
 covid_etl_project/
 │
-├── etl.py # Main ETL code (functions + classes)
-├── test_etl.py # Unit tests with pytest
-├── requirements.txt # Python dependencies
+├── etl.py                      # Main ETL code (functions + classes)
+├── test_etl.py                 # Unit tests with pytest
+├── requirements.txt            # Python dependencies
 ├── .github/workflows/
-│ └── python-ci.yml # GitHub Actions CI workflow
-└── README.md # Project description
+│ └── python-ci.yml             # GitHub Actions CI workflow
+└── README.md                   # Project description
 
 #### Setup (Windows)
 
@@ -28,7 +28,6 @@ python -m venv .venv
 
 .\.venv\Scripts\activate
 
-
 #### Install dependencies:
 
 pip install -r requirements.txt
@@ -38,7 +37,6 @@ pip install -r requirements.txt
 Run unit tests using pytest:
 
 pytest -v
-
 
 All tests are located in test_etl.py.
 Tests are also automatically run on GitHub Actions for every push or pull request to main.
