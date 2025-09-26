@@ -2,7 +2,7 @@
 
 This is a small ETL project that **extracts, transforms, and loads COVID data**. It includes unit tests and a GitHub Actions CI workflow to automatically test changes.
 
-\### Project Structure
+### Project Structure
 
 ---
 bash
