@@ -7,6 +7,7 @@ This is a small ETL project that **extracts, transforms, and loads COVID data**.
 ---
 bash
 
+
 etl_project
 │
 ├── etl.py                      # Main ETL code (functions + classes)
@@ -21,6 +22,7 @@ etl_project
 ### Setup (Windows)
 
 bash
+
 Create a virtual environment (optional but recommended):
 
 python -m venv .venv
@@ -29,16 +31,19 @@ python -m venv .venv
 
 ### Activate the virtual environment:
 bash
+
 .\.venv\Scripts\activate
 
 
 ### Install dependencies:
 bash
+
 pip install -r requirements.txt
 
 
 ### Running Tests
 bash
+
 Run unit tests using pytest:
 
 pytest -v
@@ -49,6 +54,7 @@ Tests are also automatically run on GitHub Actions for every push or pull reques
 
 ### CI/CD
 bash
+
 The workflow .github/workflows/python-ci.yml:
 
 Sets up Python 3.11
