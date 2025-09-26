@@ -4,7 +4,7 @@ This is a small ETL project that **extracts, transforms, and loads COVID data**.
 
 ---
 
-## Project Structure
+### Project Structure
 
 ---
 
@@ -17,23 +17,23 @@ covid_etl_project/
 │ └── python-ci.yml # GitHub Actions CI workflow
 └── README.md # Project description
 
-### Setup (Windows)
+#### Setup (Windows)
 
 Create a virtual environment (optional but recommended):
 
 python -m venv .venv
 
 
-### Activate the virtual environment:
+#### Activate the virtual environment:
 
 .\.venv\Scripts\activate
 
 
-### Install dependencies:
+#### Install dependencies:
 
 pip install -r requirements.txt
 
-### Running Tests
+#### Running Tests
 
 Run unit tests using pytest:
 
@@ -43,7 +43,7 @@ pytest -v
 All tests are located in test_etl.py.
 Tests are also automatically run on GitHub Actions for every push or pull request to main.
 
-### CI/CD
+#### CI/CD
 
 The workflow .github/workflows/python-ci.yml:
 
