@@ -18,8 +18,6 @@ covid_etl_project/
 └── README.md # Project description
 
 yaml
-Kopírovať kód
-
 ---
 
 ## Setup
@@ -33,23 +31,22 @@ Activate the virtual environment:
 Windows:
 
 bash
-Kopírovať kód
 .\.venv\Scripts\activate
 Mac/Linux:
 
 bash
-Kopírovať kód
+
 source .venv/bin/activate
 Install dependencies:
 
 bash
-Kopírovať kód
+
 pip install -r requirements.txt
 Running Tests
 Run unit tests using pytest:
 
 bash
-Kopírovať kód
+
 pytest -v
 All tests are located in test_etl.py.
 
