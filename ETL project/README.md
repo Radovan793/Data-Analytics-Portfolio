@@ -7,7 +7,7 @@ This is a small ETL project that **extracts, transforms, and loads COVID data**.
 ---
 bash
 
-covid_etl_project/
+etl_project
 │
 ├── etl.py                      # Main ETL code (functions + classes)
 ├── test_etl.py                 # Unit tests with pytest
