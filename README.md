@@ -21,7 +21,9 @@ Proficient in **SQL/MySQL, Power BI, Python, and Excel**, I am expanding my skil
 - **loops_examples/** – Demonstrates Python loop structures and control flow  
 - **functions_examples/** – Shows Python function definitions, parameters, and return values  
 - **numpy_pandas_examples/** – Data manipulation using **NumPy** and **pandas**  
-- **sales_report/** – A reporting script demonstrating Python-based CSV/Excel reporting and basic ETL concepts  
+- **sales_report/** – A reporting script demonstrating Python-based CSV/Excel reporting and basic ETL concepts
+- **PowerBI-Reports/** – Contains Power BI dashboard projects showcasing data visualization and analysis
+- **Excel-Analytics/** – Contains Excel-based reporting, dashboards, and data analysis exercises
 
 ---
 
