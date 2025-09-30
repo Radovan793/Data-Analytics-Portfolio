@@ -1,6 +1,6 @@
 ![Radovan Tirol – Python | SQL | Power BI | Data Engineering](banner.png)
 
-# Python / SQL Mini Projects Portfolio
+# Python / Data-Analytics-Portfolio
 
 This repository contains a collection of mini projects developed as part of my continuous professional development toward Data Analyst, Business Analyst, and Junior Data Engineer roles.  
 The projects showcase skills in **Python programming, SQL, data manipulation, ETL workflows**, and reporting automation.
