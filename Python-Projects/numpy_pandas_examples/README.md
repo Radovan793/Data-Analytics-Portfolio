@@ -1,6 +1,6 @@
 # NumPy & Pandas Examples
 
-This project contains Python scripts demonstrating data manipulation using NumPy and pandas, along with JSON parsing examples.
+**Python scripts demonstrating data manipulation, analysis, and JSON handling for real-world workflows.**
 
 ## Features
 - Array operations with NumPy
