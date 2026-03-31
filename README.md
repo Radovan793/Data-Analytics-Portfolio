@@ -9,7 +9,7 @@ The projects showcase skills in **Python programming, SQL, data manipulation, ET
 
 ## About Me
 I am **Ing. Radovan Tirol**, an SLA Operations Analyst / Engineer with 8+ years of experience in business analysis, SLA governance, and operational reporting.  
-Proficient in **SQL/MySQL, Power BI, Python, and Excel**, I am expanding my skills into **data engineering and ETL workflows**.
+Proficient in **SQL/MySQL, Power BI, Python**, I am expanding my skills into **data engineering and ETL workflows**.
 
 - **LinkedIn:** [linkedin.com/in/radovantirol](https://www.linkedin.com/in/radovantirol/)  
 - **Email:** radovan.tirol@gmail.com  
@@ -23,7 +23,7 @@ Proficient in **SQL/MySQL, Power BI, Python, and Excel**, I am expanding my skil
 - **numpy_pandas_examples/** – Data manipulation using **NumPy** and **pandas**  
 - **sales_report/** – A reporting script demonstrating Python-based CSV/Excel reporting and basic ETL concepts
 - **PowerBI-Reports/** – Contains Power BI dashboard projects showcasing data visualization and analysis
-- **Excel-Analytics/** – Contains Excel-based reporting, dashboards, and data analysis exercises
+
 
 ---
 
