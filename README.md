@@ -8,15 +8,14 @@ The projects showcase skills in **Python programming, SQL, data manipulation, ET
 ---
 
 ## About Me
-I am **Ing. Radovan Tirol**, an SLA Operations Analyst / Engineer with 8+ years of experience in business analysis, SLA governance, and operational reporting.  
-Proficient in **SQL/MySQL, Power BI, Python**, I am expanding my skills into **data engineering and ETL workflows**.
+I am **SLA Operations Analyst** with 9+ years of experience in telecom reporting and business analysis. I specialize in SQL, Power BI, and Python for data analysis, reporting automation, and KPI dashboards. I am currently expanding my skills in data analysis and data transformation techniques.
 
-- **LinkedIn:** [linkedin.com/in/radovantirol](https://www.linkedin.com/in/radovantirol/)  
+- **LinkedIn:** https://www.linkedin.com/in/radovantirol  
 - **Email:** radovan.tirol@gmail.com  
 
 ---
 
-## Repository Contents
+## Repository Contentsx`x`
 
 - **loops_examples/** – Demonstrates Python loop structures and control flow  
 - **functions_examples/** – Shows Python function definitions, parameters, and return values  
@@ -31,7 +30,8 @@ Proficient in **SQL/MySQL, Power BI, Python**, I am expanding my skills into **d
 
 - Python fundamentals: loops, functions, exception handling  
 - Data manipulation using **pandas** & **NumPy**  
-- Basic ETL workflow concepts  
+- Data transformation using Python and SQL
+- Basic ETL concepts for data preparation
 - SQL query creation and basic automation  
 - Reporting automation with Python  
 - Git & GitHub version control best practices  
@@ -57,8 +57,8 @@ Run the script:
 ## Road Map
 Future projects will include:
 
+- Advanced SQL and data modeling
+- Power BI optimization and DAX
+- Python for data analysis and automation
+- Introduction to cloud-based data workflows
 - Full ETL pipelines (CSV/JSON → SQL)
-- Data cleaning & transformation workflows
-- SQL query automation scripts
-- Power BI integration with Python for automated reporting
-- PySpark / Big Data mini projects
