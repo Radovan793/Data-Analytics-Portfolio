@@ -1,13 +1,14 @@
 # Power BI Report
 
 ***Customer Segmentation & Engagement Analysis***
-**Project Overview**
+
+***Project Overview***
 
 This project analyzes a retail bank’s client base (~10,000 customers) to uncover behavioral patterns, engagement drivers, and growth opportunities.
-
 The goal was not only to describe the data, but to translate insights into actionable business strategies that improve customer engagement and revenue.
 
-**Key Objectives**
+***Key Objectives***
+
 Understand customer demographics and distribution
 Analyze segmentation and lifecycle transitions
 Evaluate account ownership vs. engagement
@@ -19,19 +20,22 @@ Excel / CSV analysis – data exploration
 Analytical thinking – turning data into business insights
 📊 Dataset Overview
 
-The dataset includes:
+**The dataset includes:**
 
 Customer demographics (age, gender, location)
 Segmentation (MASS, STUDENT, KID)
 Account information (number of accounts, currencies)
 Activity status (active vs inactive)
 Registration history
-🔍 Key Insights
+
+**Key Insights**
+
 1. Engagement Problem in Core Segment
 The MASS segment represents ~72% of customers
 However, activity is ~50% active vs inactive
 
 **Insight**:
+
 The largest and most valuable segment has significant untapped engagement potential
 
 2. Product Ownership ≠ Engagement
@@ -39,6 +43,7 @@ Over 60% of customers hold multiple accounts
 Activity levels remain constant (~50%) regardless of account count
 
 **Insight**:
+
 Increasing product ownership alone does not drive user engagement
 
 3. High-Value Behavioral Segment Identified
@@ -48,6 +53,7 @@ International users
 Higher-value clients
 
 **Insight**:
+
 These users represent a high-value segment for targeted offerings
 
 4. Strong Acquisition, Weak Activation
@@ -55,9 +61,11 @@ Registration spike in 2024
 Activation rate remains stable (~50%)
 
 **Insight**:
+
 Growth in acquisition did not improve engagement, indicating onboarding inefficiencies
 
 **Strategic Recommendations**
+
 1. Activate Inactive Users in MASS Segment
 
 Focus on:
@@ -112,7 +120,6 @@ presentation/ → final insights
 **Key Takeaway**
 
 Data analysis is not just about reporting — it's about identifying what drives business value.
-
 This project demonstrates how data-driven insights can directly inform strategy and decision-making.
 
 **Author**
