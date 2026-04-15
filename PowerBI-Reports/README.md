@@ -13,12 +13,13 @@ Understand customer demographics and distribution
 Analyze segmentation and lifecycle transitions
 Evaluate account ownership vs. engagement
 Identify opportunities for growth and optimization
-🛠️ Tools & Skills Used
+
+**Tools & Skills Used**
+
 SQL – data extraction & transformation
 Power BI – dashboarding & visualization
 Excel / CSV analysis – data exploration
 Analytical thinking – turning data into business insights
-📊 Dataset Overview
 
 **The dataset includes:**
 
@@ -103,11 +104,9 @@ Personalize onboarding by segment
 ***Business Impact***
 
 This analysis highlights a key gap:
-
 The bank is successful at acquiring customers, but not at activating them.
 
 By shifting focus from:
-
 **Product expansion** → to **Customer engagement**
 
 the business can unlock significant revenue growth from existing users
