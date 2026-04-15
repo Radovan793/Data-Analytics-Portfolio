@@ -64,7 +64,7 @@ Activation rate remains stable (~50%)
 
 Growth in acquisition did not improve engagement, indicating onboarding inefficiencies
 
-**Strategic Recommendations**
+***Strategic Recommendations***
 
 1. Activate Inactive Users in MASS Segment
 
