@@ -100,7 +100,7 @@ Personalize onboarding by segment
 
 **Impact**: Increase activation rate beyond 50% without extra acquisition spend
 
-**Business Impact**
+***Business Impact***
 
 This analysis highlights a key gap:
 
