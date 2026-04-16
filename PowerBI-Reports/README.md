@@ -35,7 +35,7 @@
 - Activity status (active vs inactive)
 - Registration history
 
-  
+&nbsp;
 
 ## Key Insights ##
 
