@@ -12,8 +12,8 @@ I am an SLA Operations Analyst with **9+ years of experience in telecom reportin
 
 I am currently transitioning into **Data Analytics / BI roles**, with a focus on:
 
-- SQL for data extraction and analysis
 - Power BI for dashboards and reporting
+- SQL for data extraction and analysis
 - Python for data processing and automation
 
 LinkedIn: https://www.linkedin.com/in/radovantirol  
@@ -23,19 +23,19 @@ Email: radovan.tirol@gmail.com
 
 ## Project Structure
 
-- **Python-Projects/** → Data analysis scripts, pandas/NumPy examples, and automation tasks  
+- **PowerBI-Reports/** → Power BI dashboards and business reporting projects
 - **SQL-Projects/** → SQL queries for data extraction, transformation, and analysis  
-- **PowerBI-Reports/** → Power BI dashboards and business reporting projects  
+- **Python-Projects/** → Data analysis scripts, pandas/NumPy examples, and automation tasks  
 
 ---
 
 ## Skills Demonstrated
 
-### Python
-- Data manipulation using pandas and NumPy
-- Data cleaning and transformation
-- Basic ETL workflows (CSV processing, automation scripts)
-- Functions, loops, and reusable scripting
+### Power BI
+- Interactive dashboards
+- KPI tracking and reporting
+- Data visualization and storytelling
+- Business performance analysis
 
 ### SQL
 - Data extraction and transformation
@@ -43,11 +43,11 @@ Email: radovan.tirol@gmail.com
 - Analytical queries for reporting
 - Data preparation for BI tools
 
-### Power BI
-- Interactive dashboards
-- KPI tracking and reporting
-- Data visualization and storytelling
-- Business performance analysis
+### Python
+- Data manipulation using pandas and NumPy
+- Data cleaning and transformation
+- Basic ETL workflows (CSV processing, automation scripts)
+- Functions, loops, and reusable scripting
 
 ### General Skills
 - Data cleaning and validation
