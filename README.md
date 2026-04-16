@@ -1,6 +1,6 @@
 # Data Analytics Portfolio
 
-A collection of **Python, SQL, and Power BI projects** demonstrating data analysis, reporting, and automation skills.
+A collection of **Power BI projects, SQL, Python** demonstrating data analysis, reporting, and automation skills.
 
 This portfolio focuses on turning raw data into meaningful business insights using practical, real-world analytics workflows.
 
