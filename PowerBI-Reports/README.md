@@ -34,7 +34,7 @@
 - Activity status (active vs inactive)
 - Registration history
 
-### Key Insights ###
+## Key Insights ##
 
 1. Engagement Problem in Core Segment
 - The MASS segment represents ~72% of customers
