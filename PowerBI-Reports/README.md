@@ -72,6 +72,7 @@ Growth in acquisition did not improve engagement, indicating onboarding ineffici
 
 
 
+
 ## Strategic Recommendations ##
 
 1. Activate Inactive Users in MASS Segment
@@ -105,6 +106,7 @@ Prioritize:
 - Personalize onboarding by segment
 
 ### Impact: Increase activation rate beyond 50% without extra acquisition spend ###
+
 
 
 
