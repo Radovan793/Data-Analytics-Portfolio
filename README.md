@@ -72,7 +72,7 @@ This repository demonstrates practical, end-to-end analytics workflows:
 ## How to Run Projects
 
 ### Clone repository ###
-```bash
+`bash
 git clone https://github.com/Radovan793/Data-Analytics-Portfolio.git
 
 ## Roadmap ##
