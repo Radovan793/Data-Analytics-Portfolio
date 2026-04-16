@@ -1,10 +1,14 @@
-# Customer \& Invoice Analytics SQL Project
+# Customer & Invoice Analytics SQL Project
 
 
 
 ## Overview
 
 This project demonstrates SQL-based analysis of customer behavior, invoice patterns, and revenue insights using structured datasets.
+
+## Project Type
+
+End-to-end SQL analytics portfolio project (simulating real business reporting workflows)
 
 
 ## Key Analysis Areas
@@ -13,16 +17,16 @@ This project demonstrates SQL-based analysis of customer behavior, invoice patte
 
 ### 1. Data Setup
 
-- Schema creation
-- Sample dataset generation
+- Database schema creation
+- Sample dataset generation for analysis
+- Structured test data for advanced SQL scenarios
 
 
-
-### 2. Customer Behavior Analysis
+### 2. Customer Analytics
 
 - Customer activity patterns
 - Purchase behavior insights
-
+- Customer segmentation signals
 
 ### 3. Revenue Analysis
 
@@ -52,10 +56,20 @@ This project demonstrates SQL-based analysis of customer behavior, invoice patte
 
 - SQL (MySQL/PostgreSQL compatible concepts)
 
+## Skills Demonstrated
+
+- SQL data modeling and schema design  
+- Window functions (RANK, DENSE_RANK, LAG)  
+- CTE-based query structuring  
+- Correlated and scalar subqueries  
+- Business-focused data analysis  
+- Data transformation and aggregation techniques
 
 ## Business Value
 
-- Identify high-value customers
-- Analyze revenue performance
-- Support data-driven decisions
+- Identifies high-value and high-frequency customers  
+- Reveals revenue patterns and invoice behavior trends  
+- Supports segmentation of customers based on financial contribution  
+- Enables data-driven decision-making for sales and finance teams
+
 
