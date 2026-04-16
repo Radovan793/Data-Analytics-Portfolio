@@ -7,6 +7,7 @@
 
 ## Customer Segmentation & Engagement Analysis ##
 
+
 ### Project Overview ###
 
 - This project analyzes a retail bank’s client base (~10,000 customers) to uncover behavioral patterns, engagement drivers, and growth opportunities.
@@ -33,6 +34,8 @@
 - Account information (number of accounts, currencies)
 - Activity status (active vs inactive)
 - Registration history
+
+  
 
 ## Key Insights ##
 
@@ -106,6 +109,7 @@ Prioritize:
 - Personalize onboarding by segment
 
 ### Impact: Increase activation rate beyond 50% without extra acquisition spend ###
+
 
 
 
