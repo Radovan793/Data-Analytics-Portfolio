@@ -1,78 +1,61 @@
-\# Customer \& Invoice Analytics SQL Project
+# Customer \& Invoice Analytics SQL Project
 
 
 
-\## Overview
+## Overview
 
 This project demonstrates SQL-based analysis of customer behavior, invoice patterns, and revenue insights using structured datasets.
 
 
-
-\## Key Analysis Areas
-
-
-
-\### 1. Data Setup
-
-\- Schema creation
-
-\- Sample dataset generation
+## Key Analysis Areas
 
 
 
-\### 2. Customer Behavior Analysis
+### 1. Data Setup
 
-\- Customer activity patterns
-
-\- Purchase behavior insights
-
-
-
-\### 3. Revenue Analysis
-
-\- Invoice benchmarking
-
-\- Customer revenue comparisons
+- Schema creation
+- Sample dataset generation
 
 
 
-\### 4. Advanced SQL Techniques
+### 2. Customer Behavior Analysis
 
-\- Window functions (RANK, DENSE\_RANK)
-
-\- CTEs (Common Table Expressions)
-
-\- Correlated subqueries
-
-\- Rolling aggregations
+- Customer activity patterns
+- Purchase behavior insights
 
 
+### 3. Revenue Analysis
 
-\## Project Structure
-
-\- 01\_schema\_and\_sample\_data.sql → database setup
-
-\- 02\_customer\_behavior.sql → customer insights
-
-\- 03\_revenue\_analysis.sql → financial analysis
-
-\- 04\_advanced\_patterns.sql → advanced SQL logic
-
-\- 04\_advanced\_patterns\_part2.sql → extended patterns
+- Invoice benchmarking
+- Customer revenue comparisons
 
 
+### 4. Advanced SQL Techniques
 
-\## Tools Used
+- Window functions (RANK, DENSE\_RANK)
+- CTEs (Common Table Expressions)
+- Correlated subqueries
+- Rolling aggregations
 
-\- SQL (MySQL/PostgreSQL compatible concepts)
+
+## Project Structure
+
+- 01_schema_and_sample_data.sql → database setup
+- 02_customer_behavior.sql → customer insights
+- 03_revenue_analysis.sql → financial analysis
+- 04_analytical_patterns_window_functions.sql → window functions, ranking, and data quality patterns
+- 05_financial_and_invoice_analysis.sql → invoice analysis, client performance, revenue comparisons
+- 05_practice_sample_data.sql → additional datasets for testing and exploration
 
 
+## Tools Used
 
-\## Business Value
+- SQL (MySQL/PostgreSQL compatible concepts)
 
-\- Identify high-value customers
 
-\- Analyze revenue performance
+## Business Value
 
-\- Support data-driven decisions
+- Identify high-value customers
+- Analyze revenue performance
+- Support data-driven decisions
 
