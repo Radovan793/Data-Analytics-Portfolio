@@ -1,6 +1,6 @@
 # Power BI Report
 
-## Project Assets
+## Project Assets ##
 
 - Power BI Dashboard: `Analysis of client Basis - Rado.pbix`
 - Business Presentation: `Client Base Analysis and Strategic Insights_Radovan Tirol.pdf`
@@ -48,7 +48,7 @@ The largest and most valuable segment has significant untapped engagement potent
 Over 60% of customers hold multiple accounts
 Activity levels remain constant (~50%) regardless of account count
 
-### Insight ###:
+### Insight: ###
 
 Increasing product ownership alone does not drive user engagement
 
@@ -58,7 +58,7 @@ Likely to be:
 International users
 Higher-value clients
 
-### Insight ###:
+### Insight: ###
 
 These users represent a high-value segment for targeted offerings
 
@@ -66,7 +66,7 @@ These users represent a high-value segment for targeted offerings
 Registration spike in 2024
 Activation rate remains stable (~50%)
 
-### Insight ###:
+### Insight: ###
 
 Growth in acquisition did not improve engagement, indicating onboarding inefficiencies
 
@@ -80,7 +80,7 @@ Targeted campaigns
 Usage incentives
 Re-engagement strategies
 
-### Impact ###: High ROI due to low acquisition cost
+### Impact: ###  High ROI due to low acquisition cost
 
 2. Shift from Cross-Sell → Engagement Strategy
 
@@ -89,7 +89,7 @@ Instead of pushing more products:
 Introduce usage-based incentives
 Focus on customer behavior, not product count
 
-### Impact ###: Improves real engagement, not just product adoption
+### Impact: ### Improves real engagement, not just product adoption
 
 3. Target High-Value Customers
 
@@ -98,13 +98,13 @@ Prioritize:
 Multi-currency users
 International behavior segments
 
-### Impact ###: Higher revenue per user
+### Impact: ### Higher revenue per user
 
 4. Improve Onboarding Experience
 Optimize first-user journey
 Personalize onboarding by segment
 
-###Impact###: Increase activation rate beyond 50% without extra acquisition spend
+### Impact: ### Increase activation rate beyond 50% without extra acquisition spend
 
 ## Business Impact ##
 
@@ -119,12 +119,12 @@ sql/ → queries for analysis
 dashboard/ → Power BI visuals
 presentation/ → final insights
 
-**Key Takeaway**
+### Key Takeaway ###
 
 Data analysis is not just about reporting — it's about identifying what drives business value.
 This project demonstrates how data-driven insights can directly inform strategy and decision-making.
 
-**Author**
+### Author ###
 
 Radovan Tirol
 Aspiring Data Analyst | SQL • Power BI • Python (learning)
