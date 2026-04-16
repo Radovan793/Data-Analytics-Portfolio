@@ -1,6 +1,6 @@
 # Data Analytics Portfolio
 
-A collection of **Power BI projects, SQL, Python** demonstrating data analysis, reporting, and automation skills.
+A collection of **Power BI projects, SQL, and Python** projects demonstrating data analysis, reporting, and automation skills.
 
 This portfolio focuses on turning raw data into meaningful business insights using practical, real-world analytics workflows.
 
@@ -79,19 +79,19 @@ git clone https://github.com/Radovan793/Data-Analytics-Portfolio.git
 
 ### Future improvements include: ###
 
-Advanced SQL (window functions, optimization techniques)
-Advanced Power BI (DAX, performance tuning)
-Python for advanced data analysis and automation
-End-to-end ETL pipelines (CSV → SQL → Power BI)
-Introduction to cloud-based data workflows
+- Advanced SQL (window functions, optimization techniques)
+- Advanced Power BI (DAX, performance tuning)
+- Python for advanced data analysis and automation
+- End-to-end ETL pipelines (CSV → SQL → Power BI)
+- Introduction to cloud-based data workflows
 
 ### Key Takeaway ###
 
 This portfolio demonstrates the ability to transform raw data into actionable business insights using SQL, Python, and Power BI. It focuses on real-world analytical thinking, not just technical execution.
 
-### Author ###
+## Author
 
-Radovan Tirol
-Aspiring Data Analyst | SQL • Power BI • Python
+**Radovan Tirol**  
+Aspiring Data Analyst | SQL • Power BI • Python  
 9+ years experience in telecom reporting & operations analytics
 
