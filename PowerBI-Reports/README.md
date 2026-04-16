@@ -1,6 +1,7 @@
 # Power BI Report #
 
 ## Project Assets ##
+
 Power BI Dashboard: Analysis of Client Basis – Rado.pbix
 Business Presentation: Client Base Analysis and Strategic Insights — Radovan Tirol.pdf
 
