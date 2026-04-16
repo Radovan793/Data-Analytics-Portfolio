@@ -70,6 +70,8 @@ Activation rate remains stable (~50%)
 
 Growth in acquisition did not improve engagement, indicating onboarding inefficiencies
 
+
+
 ## Strategic Recommendations ##
 
 1. Activate Inactive Users in MASS Segment
@@ -80,7 +82,7 @@ Targeted campaigns
 Usage incentives
 Re-engagement strategies
 
-### Impact: ###  High ROI due to low acquisition cost
+### Impact: High ROI due to low acquisition cost ### 
 
 2. Shift from Cross-Sell → Engagement Strategy
 
@@ -89,7 +91,7 @@ Instead of pushing more products:
 Introduce usage-based incentives
 Focus on customer behavior, not product count
 
-### Impact: ### Improves real engagement, not just product adoption
+### Impact: Improves real engagement, not just product adoption ### 
 
 3. Target High-Value Customers
 
@@ -98,18 +100,19 @@ Prioritize:
 Multi-currency users
 International behavior segments
 
-### Impact: ### Higher revenue per user
+### Impact: Higher revenue per user ### 
 
 4. Improve Onboarding Experience
 Optimize first-user journey
 Personalize onboarding by segment
 
-### Impact: ### Increase activation rate beyond 50% without extra acquisition spend
+### Impact: Increase activation rate beyond 50% without extra acquisition spend ###
+
+
 
 ## Business Impact ##
 
 This analysis highlights a key gap: The bank is successful at acquiring customers, but not at activating them.
-
 By shifting focus from: **Product expansion** → to **Customer engagement** the business can unlock significant revenue growth from existing users
 
 ### Project Structure ###
@@ -127,4 +130,4 @@ This project demonstrates how data-driven insights can directly inform strategy 
 ### Author ###
 
 Radovan Tirol
-Aspiring Data Analyst | SQL • Power BI • Python (learning)
+Aspiring Data Analyst | SQL • Power BI • Python
