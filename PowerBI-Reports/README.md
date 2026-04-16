@@ -1,5 +1,10 @@
 # Power BI Report
 
+## 📂 Project Assets
+
+- 📊 Power BI Dashboard: `Analysis of client Basis - Rado.pbix`
+- 📄 Business Presentation: `Client Base Analysis and Strategic Insights_Radovan Tirol.pdf`
+
 ***Customer Segmentation & Engagement Analysis***
 
 ***Project Overview***
