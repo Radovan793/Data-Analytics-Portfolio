@@ -1,78 +1,75 @@
-\# Customer \& Invoice Analytics SQL Project
+# Customer & Invoice Analytics SQL Project
 
 
 
-\## Overview
+## Overview
 
 This project demonstrates SQL-based analysis of customer behavior, invoice patterns, and revenue insights using structured datasets.
 
+## Project Type
+
+End-to-end SQL analytics portfolio project (simulating real business reporting workflows)
 
 
-\## Key Analysis Areas
-
-
-
-\### 1. Data Setup
-
-\- Schema creation
-
-\- Sample dataset generation
+## Key Analysis Areas
 
 
 
-\### 2. Customer Behavior Analysis
+### 1. Data Setup
 
-\- Customer activity patterns
-
-\- Purchase behavior insights
-
-
-
-\### 3. Revenue Analysis
-
-\- Invoice benchmarking
-
-\- Customer revenue comparisons
+- Database schema creation
+- Sample dataset generation for analysis
+- Structured test data for advanced SQL scenarios
 
 
+### 2. Customer Analytics
 
-\### 4. Advanced SQL Techniques
+- Customer activity patterns
+- Purchase behavior insights
+- Customer segmentation signals
 
-\- Window functions (RANK, DENSE\_RANK)
+### 3. Revenue Analysis
 
-\- CTEs (Common Table Expressions)
-
-\- Correlated subqueries
-
-\- Rolling aggregations
-
-
-
-\## Project Structure
-
-\- 01\_schema\_and\_sample\_data.sql → database setup
-
-\- 02\_customer\_behavior.sql → customer insights
-
-\- 03\_revenue\_analysis.sql → financial analysis
-
-\- 04\_advanced\_patterns.sql → advanced SQL logic
-
-\- 04\_advanced\_patterns\_part2.sql → extended patterns
+- Invoice benchmarking
+- Customer revenue comparisons
 
 
+### 4. Advanced SQL Techniques
 
-\## Tools Used
+- Window functions (RANK, DENSE\_RANK)
+- CTEs (Common Table Expressions)
+- Correlated subqueries
+- Rolling aggregations
 
-\- SQL (MySQL/PostgreSQL compatible concepts)
+
+## Project Structure
+
+- 01_schema_and_sample_data.sql → database setup
+- 02_customer_behavior.sql → customer insights
+- 03_revenue_analysis.sql → financial analysis
+- 04_analytical_patterns_window_functions.sql → window functions, ranking, and data quality patterns
+- 05_financial_and_invoice_analysis.sql → invoice analysis, client performance, revenue comparisons
+- 05_practice_sample_data.sql → additional datasets for testing and exploration
 
 
+## Tools Used
 
-\## Business Value
+- SQL (MySQL/PostgreSQL compatible concepts)
 
-\- Identify high-value customers
+## Skills Demonstrated
 
-\- Analyze revenue performance
+- SQL data modeling and schema design  
+- Window functions (RANK, DENSE_RANK, LAG)  
+- CTE-based query structuring  
+- Correlated and scalar subqueries  
+- Business-focused data analysis  
+- Data transformation and aggregation techniques
 
-\- Support data-driven decisions
+## Business Value
+
+- Identifies high-value and high-frequency customers  
+- Reveals revenue patterns and invoice behavior trends  
+- Supports segmentation of customers based on financial contribution  
+- Enables data-driven decision-making for sales and finance teams
+
 
