@@ -1,0 +1,9 @@
+{
+    "name": "Diana",
+    "age": 28,
+    "city": "Berlin",
+    "skills": [
+        "Excel",
+        "Power BI"
+    ]
+}
