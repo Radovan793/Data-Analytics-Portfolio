@@ -118,6 +118,12 @@ presentation/  → final insights
 - Data analysis is not just about reporting — it is about identifying what drives business value.
 - This project demonstrates how data‑driven insights can directly inform strategy and decision‑making.
 
+## Interactive Power BI Report
+
+Explore the full Power BI dashboard:
+
+[Government Spend Analysis (.pbix)](https://drive.google.com/file/d/1Kcrl45oRPYYfjjLqX5q0ldD-g_msP3-x/view?usp=drive_link)
+
 ### Author ###
 Radovan Tirol  
 Aspiring Data Analyst | SQL • Power BI • Python(learning)
