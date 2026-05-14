@@ -101,7 +101,7 @@ Open files:
 .py → VS Code / Python
 .pdf / .png → browser or image viewer
 
-## Author
+**Author**
 
 Radovan Tirol
 Data Analyst / BI Analyst
