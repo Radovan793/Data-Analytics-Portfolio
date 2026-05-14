@@ -85,21 +85,10 @@ The project demonstrates:
 
 ---
 
-## How to Run This Project Locally
+## Power BI File
 
-This repository uses **Git LFS** to store large Power BI files (`.pbix`).
-
-```bash
-git clone https://github.com/Radovan793/Data-Analytics-Portfolio.git
-cd Data-Analytics-Portfolio
-git lfs install
-git lfs pull
-
-Open files:
-.pbix → Power BI Desktop
-.sql → SQL tools (SSMS, DBeaver, etc.)
-.py → VS Code / Python
-.pdf / .png → browser or image viewer
+Download the interactive Power BI dashboard (.pbix):
+[Download PBIX File](https://drive.google.com/file/d/1ELAZ2bCRYgWcV1vWUgnTh4AvRh3SDR_g/view?usp=drive_link)
 
 **Author**
 
