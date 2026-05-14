@@ -1,0 +1,8 @@
+client_id,amount,currency,date,status
+101,1200,EUR,2024/12/01,Cleared
+105,700,eur,01-01-2025,cleared
+1200,500,USD,2025-01-05,failed
+130,300,GBP,01-05,cleared
+,150,EUR,2025-01-10,cleared
+
+transaction_sample.csv
