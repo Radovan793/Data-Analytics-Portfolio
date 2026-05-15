@@ -52,17 +52,17 @@ The project demonstrates:
 
 ## Dashboard Pages
 
-1. **Executive Overview**
-   - Total spend, KPIs, trend analysis
+1. **Spend Overview**
+   - Total spend over Time, Total spend by Payment Method, Number Of Transactions, KPIs, 
 
 2. **Vendor Analysis**
-   - Top vendors, concentration, payment distribution
+   - Top 10 vendors by spend, Top N vendors, Slicers, Concentration, Payment distribution
 
-3. **Department Analysis**
-   - Spend allocation across departments
+3. **Department / Program Analysis**
+   - Spend allocation across departments, Spend by Fiscal Year across Department
 
-4. **Time Intelligence**
-   - Monthly trends, YoY comparison, running totals
+4. **Time Intelligence Analysis**
+   - Monthly trends, YoY comparison, Running totals
 
 ---
 
