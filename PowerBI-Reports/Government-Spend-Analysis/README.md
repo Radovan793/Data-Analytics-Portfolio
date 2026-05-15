@@ -97,7 +97,7 @@ The goal of this project is to transform raw transactional data into actionable 
 ## Power BI Report
 
 Download interactive dashboard:  
-(Replace with your Google Drive or GitHub link)
+(https://drive.google.com/file/d/1ELAZ2bCRYgWcV1vWUgnTh4AvRh3SDR_g/view?usp=drive_link)
 
 ---
 
