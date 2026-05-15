@@ -36,7 +36,7 @@ The project demonstrates:
 ## Data Model
 
 ### Fact Table
-- FactPayments (Amount, Dates, Vendor IDs, Department IDs, etc.)
+- Expenditures (Amount, Dates, Vendor IDs, Department IDs, etc.)
 
 ### Dimension Tables
 - DimVendor  
