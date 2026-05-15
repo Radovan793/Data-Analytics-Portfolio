@@ -1,42 +1,42 @@
 # Government Spend Analysis – Power BI Dashboard
 
-A full end-to-end Business Intelligence project analyzing government spending using the State of Connecticut Expenditures dataset.
+## Project Overview
+
+This is an end-to-end Business Intelligence project analyzing government expenditure using the State of Connecticut dataset.
+
+The goal of this project is to transform raw transactional data into actionable insights about spending patterns, vendor concentration, and departmental budget allocation.
 
 ---
 
-## Project Overview
+## Key Capabilities Demonstrated
 
-This dashboard provides a financial and operational view of government payments, vendors, departments, and long-term spending trends.
-
-The project demonstrates:
-
-- Data modeling (Star Schema)
-- Power Query transformations
-- DAX measures and calculations
-- KPI design and business metrics
-- Time intelligence (YoY, running totals)
-- Vendor and department analysis
+- Data modeling using a Star Schema  
+- Power Query (ETL transformations)  
+- DAX measures and calculations  
+- KPI design and business metrics  
+- Time intelligence analysis (YoY, running totals)  
+- Vendor and department-level analysis  
 
 ---
 
 ## Key KPIs
 
-- Total Spend
-- Number of Transactions
-- Average Payment Amount
-- Largest Single Payment
-- Top Vendor by Spend
-- Spend by Department
-- Monthly & Yearly Trends
-- Year-over-Year (YoY) Growth
-- Running Total Spend
+- Total Spend  
+- Number of Transactions  
+- Average Payment Amount  
+- Largest Single Payment  
+- Top Vendor by Spend  
+- Spend by Department  
+- Monthly and Yearly Trends  
+- Year-over-Year (YoY) Growth  
+- Running Total Spend  
 
 ---
 
 ## Data Model
 
 ### Fact Table
-- Expenditures (Amount, Dates, Vendor IDs, Department IDs, etc.)
+- Expenditures (amounts, dates, vendor IDs, department IDs, etc.)
 
 ### Dimension Tables
 - DimVendor  
@@ -52,45 +52,56 @@ The project demonstrates:
 
 ## Dashboard Pages
 
-1. **Spend Overview**
-   - Total spend over Time, Total spend by Payment Method, Number Of Transactions, KPIs, 
+### 1. Spend Overview
+- Total spend over time  
+- Payment method distribution  
+- Key KPIs  
+- Transaction volume  
 
-2. **Vendor Analysis**
-   - Top 10 vendors by spend, Top N vendors, Slicers, Concentration, Payment distribution
+### 2. Vendor Analysis
+- Top 10 vendors by spend  
+- Vendor concentration  
+- Spend distribution  
 
-3. **Department / Program Analysis**
-   - Spend allocation across departments, Spend by Fiscal Year across Department
+### 3. Department / Program Analysis
+- Budget allocation across departments  
+- Fiscal year comparison  
+- Spend breakdown by program  
 
-4. **Time Intelligence Analysis**
-   - Monthly trends, YoY comparison, Running totals
-
----
-
-## 🛠 Tools Used
-
-- Power BI Desktop
-- Power Query (ETL transformations)
-- DAX (Measures & Calculations)
-- Excel / CSV data sources
-- Star Schema Data Modeling
-
----
-
-## Key Insights (Summary)
-
-- Government spending is highly concentrated among a small number of vendors
-- Departments show uneven budget distribution
-- Clear seasonal and long-term growth trends in expenditure
-- Payment methods significantly influence total spend distribution
+### 4. Time Intelligence Analysis
+- Monthly trends  
+- Year-over-year comparison  
+- Running total analysis  
 
 ---
 
-## Power BI File
+## Key Insights
 
-Download the interactive Power BI dashboard (.pbix):
-[Download PBIX File](https://drive.google.com/file/d/1ELAZ2bCRYgWcV1vWUgnTh4AvRh3SDR_g/view?usp=drive_link)
+- Government spending is highly concentrated among a small number of vendors  
+- Departments show uneven budget distribution  
+- Clear seasonal and long-term spending trends exist  
+- Payment methods significantly affect spend distribution  
 
-**Author**
+---
 
-Radovan Tirol
-Data Analyst / BI Analyst
+## Tools Used
+
+- Power BI Desktop  
+- Power Query (ETL)  
+- DAX (Measures & Calculations)  
+- Excel / CSV data sources  
+- Star Schema data modeling  
+
+---
+
+## Power BI Report
+
+Download interactive dashboard:  
+(Replace with your Google Drive or GitHub link)
+
+---
+
+## Author
+
+Radovan Tirol  
+Aspiring Data Analyst | Power BI • SQL • Python
