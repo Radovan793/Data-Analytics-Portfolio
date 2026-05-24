@@ -1,8 +1,8 @@
-\# Government Spend Analysis – Power BI Dashboard
+# Government Spend Analysis – Power BI Dashboard
 
 
 
-\## Executive Summary
+## Executive Summary
 
 
 
@@ -18,259 +18,259 @@ The goal is to transform raw transactional data into actionable insights about s
 
 
 
-\---
+---
 
 
 
-\## Key Capabilities Demonstrated
+## Key Capabilities Demonstrated
 
 
 
-\- Data modelling (Star Schema)
+- Data modelling (Star Schema)
 
-\- Power Query transformations
+- Power Query transformations
 
-\- DAX measures and calculations
+- DAX measures and calculations
 
-\- KPI design and business metrics
+- KPI design and business metrics
 
-\- Time intelligence (YoY, running totals, rolling trends)
+- Time intelligence (YoY, running totals, rolling trends)
 
-\- Vendor and department analysis
+- Vendor and department analysis
 
-\- Anomaly detection and outlier analysis
+- Anomaly detection and outlier analysis
 
 
 
-\---
+---
 
 
 
-\## Key KPIs
+## Key KPIs
 
 
 
-\- Total Spend
+- Total Spend
 
-\- Number of Transactions
+- Number of Transactions
 
-\- Average Payment Amount
+- Average Payment Amount
 
-\- Largest Single Payment
+- Largest Single Payment
 
-\- Top Vendor by Spend
+- Top Vendor by Spend
 
-\- Spend by Department
+- Spend by Department
 
-\- Monthly \& Yearly Trends
+- Monthly \& Yearly Trends
 
-\- Year-over-Year (YoY) Growth
+- Year-over-Year (YoY) Growth
 
-\- Running Total Spend
+- Running Total Spend
 
-\- Department Anomaly Count (>50M)
+- Department Anomaly Count (>50M)
 
-\- High-Value Transaction Metrics
+- High-Value Transaction Metrics
 
 
 
-\---
+---
 
 
 
-\## Data Model
+## Data Model
 
 
 
-\### Fact Table
+### Fact Table
 
-\- Expenditures (Payment, Amount, Date, Vendor Key, Department Key, etc.)
+- Expenditures (Payment, Amount, Date, Vendor Key, Department Key, etc.)
 
 
 
-\### Dimension Tables
+### Dimension Tables
 
-\- DimVendor
+- DimVendor
 
-\- DimDepartment
+- DimDepartment
 
-\- DimProgram
+- DimProgram
 
-\- DimService
+- DimService
 
-\- DimAccount
+- DimAccount
 
-\- DimFund
+- DimFund
 
-\- DimPaymentMethod
+- DimPaymentMethod
 
-\- DimDate
+- DimDate
 
 
 
-\---
+---
 
 
 
-\## Dashboard Pages
+## Dashboard Pages
 
 
 
-\### 1. Spend Overview
+### 1. Spend Overview
 
-\- Total spend over time
+- Total spend over time
 
-\- Total Spend (€) by Payment Method
+- Total Spend (€) by Payment Method
 
-\- Key KPIs
+- Key KPIs
 
-\- Transaction Volume by Amount Range
+- Transaction Volume by Amount Range
 
 
 
-\---
+---
 
 
 
-\### 2. Vendor Analysis
+### 2. Vendor Analysis
 
-\- Top N Vendors by Spend (Dynamic)
+- Top N Vendors by Spend (Dynamic)
 
-\- Vendor Spend Over Time
+- Vendor Spend Over Time
 
-\- Spend Share by Vendor Type
+- Spend Share by Vendor Type
 
-\- KPI insights
+- KPI insights
 
 
 
-\---
+---
 
 
 
-\### 3. Department / Program Analysis
+### 3. Department / Program Analysis
 
-\- Spend by Department
+- Spend by Department
 
-\- Spend by Department, Program, Service
+- Spend by Department, Program, Service
 
-\- YoY Spend Comparison by Department
+- YoY Spend Comparison by Department
 
-\- Spend by Fiscal Year and Department
+- Spend by Fiscal Year and Department
 
 
 
-\---
+---
 
 
 
-\### 4. Time Intelligence Analysis
+### 4. Time Intelligence Analysis
 
-\- Monthly spending trend
+- Monthly spending trend
 
-\- Year-over-Year (YoY) comparison by department
+- Year-over-Year (YoY) comparison by department
 
-\- YoY Change and YoY % Change metrics
+- YoY Change and YoY % Change metrics
 
-\- Running Total Spend (cumulative analysis)
+- Running Total Spend (cumulative analysis)
 
-\- Fiscal Year slicer
+- Fiscal Year slicer
 
 
 
-\---
+---
 
 
 
-\### 5. Financial Distribution \& Vendor Composition
+### 5. Financial Distribution \& Vendor Composition
 
-\- Spend Share by Vendor Type (donut chart)
+- Spend Share by Vendor Type (donut chart)
 
-\- Transaction Distribution by Amount Range (histogram)
+- Transaction Distribution by Amount Range (histogram)
 
-\- Payment volume analysis by value ranges
+- Payment volume analysis by value ranges
 
-\- Concentration of transactions across spend bands
+- Concentration of transactions across spend bands
 
 
 
-\---
+---
 
 
 
-\### 6. Anomaly Detection \& Risk Analysis
+### 6. Anomaly Detection \& Risk Analysis
 
-\- Largest Single Payment by Fiscal Year
+- Largest Single Payment by Fiscal Year
 
-\- Top Anomaly Concentration Table
+- Top Anomaly Concentration Table
 
-\- Department Anomaly Count (>50M)
+- Department Anomaly Count (>50M)
 
-\- High-Value Payment Distribution (≥50M)
+- High-Value Payment Distribution (≥50M)
 
-\- Heatmap-style anomaly matrix
+- Heatmap-style anomaly matrix
 
-\- Fiscal Year slicer
+- Fiscal Year slicer
 
 
 
-\---
+---
 
 
 
-\## Key Insights
+## Key Insights
 
 
 
-\- Government spending is highly concentrated among a small number of vendors
+- Government spending is highly concentrated among a small number of vendors
 
-\- Departments show uneven budget distribution
+- Departments show uneven budget distribution
 
-\- Clear seasonal and long-term spending trends exist
+- Clear seasonal and long-term spending trends exist
 
-\- Payment methods significantly affect spend distribution
+- Payment methods significantly affect spend distribution
 
-\- High-value anomalies are concentrated in specific departments and fiscal years
+- High-value anomalies are concentrated in specific departments and fiscal years
 
 
 
-\---
+---
 
 
 
-\## Tools Used
+## Tools Used
 
 
 
-\- Power BI Desktop
+- Power BI Desktop
 
-\- Power Query (ETL)
+- Power Query (ETL)
 
-\- DAX (Measures \& Calculations)
+- DAX (Measures \& Calculations)
 
-\- Excel / CSV data sources
+- Excel / CSV data sources
 
-\- Star Schema data modeling
+- Star Schema data modeling
 
 
 
-\---
+---
 
 
 
-\## Power BI Report
+## Power BI Report
 
 
 
-\[Download interactive dashboard](https://drive.google.com/file/d/1UXhYtx8PdVvLCuNOeE541IAoQvL3Xnr6/view?usp=drive\_link)
+[Download interactive dashboard](https://drive.google.com/file/d/1UXhYtx8PdVvLCuNOeE541IAoQvL3Xnr6/view?usp=drive\_link)
 
 
 
-\---
+---
 
 
 
-\## Author
+## Author
 
 
 
