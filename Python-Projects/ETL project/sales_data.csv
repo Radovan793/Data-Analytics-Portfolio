@@ -1,0 +1,11 @@
+Customer_ID,Customer_Name,Region,Sale_Date,Amount,Product
+101,John Smith,north ,2024-05-12,250,Monitor
+102,Mary Jones,South,2024-05-13,300,Laptop
+103,Bob Lee,East,2024/05/14,150,Keyboard
+104,Susan Park,west,2024-05-15,,Mouse
+105,John Smith,north,2024-05-12,250,Monitor
+106,Anna White,  South ,2024-05-17,400,Printer
+107,James King,EAST,05-18-2024,120,Mouse
+108,Robert Gray,West,2024-05-19,NaN,Monitor
+109,,North,2024-05-20,200,Laptop
+110,Linda Black,south,2024-05-21,350,Monitor
